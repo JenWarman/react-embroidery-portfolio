@@ -1,0 +1,42 @@
+.portfolio {
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($secondary-color, 0.4),
+        rgba($primary-color, 1.5)
+      ),
+      url(/ThreadBG.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 10rem;
+    justify-content: center;
+      align-items: center;
+  
+    &-text {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    &-heading {
+      font-size: 30rem;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 2rem;
+    }
+  
+    &-link {
+      text-decoration: none;
+      color: white;
+      font-size: 2rem;
+      text-align: end;
+      padding-right: 5rem;
+  
+      &:hover {
+          color: darken($primary-color, 10%);
+      }
+    }
+  }
+  

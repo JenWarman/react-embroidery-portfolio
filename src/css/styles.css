@@ -106,6 +106,39 @@ p {
   background: linear-gradient(to bottom, rgb(216, 191, 195) 0%, rgb(216, 191, 195) 70%, white 70%, white 100%);
 }
 
+.portfolio {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(216, 191, 195, 0.4), #984d5a), url(/ThreadBG.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-text {
+  display: flex;
+  flex-direction: column;
+}
+.portfolio-heading {
+  font-size: 30rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2rem;
+}
+.portfolio-link {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  text-align: end;
+  padding-right: 5rem;
+}
+.portfolio-link:hover {
+  color: rgb(118.1484716157, 59.8515283843, 69.9563318777);
+}
+
 .nav {
   display: flex;
   width: 100%;

@@ -3,6 +3,8 @@ import Header from "./Header";
 
 import '../css/styles.css';
 import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function Home() {
     return (
@@ -10,6 +12,8 @@ function Home() {
         <Header/>
         <About/>
         <Portfolio/>
+        <Contact/>
+        <Footer/>
         </div>
     )
 }

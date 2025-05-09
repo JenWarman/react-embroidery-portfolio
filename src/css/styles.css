@@ -25,7 +25,7 @@ p {
 }
 
 .header {
-  background-image: url(../assets/Header.png);
+  background-image: url(/Header.png);
   width: 100%;
   height: 100vh;
   margin-left: 10rem;
@@ -137,6 +137,123 @@ p {
 }
 .portfolio-link:hover {
   color: rgb(118.1484716157, 59.8515283843, 69.9563318777);
+}
+
+.contact {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.contact-heading {
+  font-size: 14rem;
+  color: rgb(152, 77, 90);
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+.contact-form {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  font-size: 4rem;
+  color: rgb(152, 77, 90);
+  text-transform: uppercase;
+}
+.contact-form-input {
+  width: 100%;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.contact-form-textarea {
+  width: 100%;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.contact-form-textarea-label {
+  font-family: inherit;
+}
+.contact-form-btn {
+  height: 4rem;
+  width: 20rem;
+  background-color: rgb(152, 77, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rem;
+  transition: all 0.3s;
+  align-self: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contact-form-btn-text {
+  font-size: 1.6rem;
+  font-family: "Nanum Gothic Coding", monospace;
+  text-transform: uppercase;
+  color: white;
+}
+.contact-form-btn:hover {
+  background-color: rgb(118.1484716157, 59.8515283843, 69.9563318777);
+  transform: scale(1.1);
+}
+
+.footer {
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(216, 191, 195);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text {
+  display: flex;
+  font-family: "Nerko One", cursive;
+  color: white;
+  text-transform: uppercase;
+  font-size: 5rem;
+  padding: 0 5rem;
+}
+.footer-text-embroidery {
+  display: flex;
+  font-family: "Nerko One", cursive;
+  color: white;
+  text-transform: uppercase;
+  font-size: 5rem;
+  padding: 0 5rem;
+  letter-spacing: 0.3rem;
+}
+.footer-social-media {
+  padding: 0 5rem;
+}
+.footer-social-media-list {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+.footer-social-media-link {
+  color: white;
+  font-size: 4rem;
+  padding: 1rem;
+}
+.footer-social-media i {
+  color: white;
+  font-size: 4rem;
+  padding: 1rem;
+}
+.footer-contactinfo {
+  padding: 0 5rem;
+  font-family: "Nanum Gothic Coding", monospace;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: right;
+  line-height: 1rem;
 }
 
 .nav {

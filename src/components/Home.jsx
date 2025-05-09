@@ -1,10 +1,11 @@
-import About from "./About";
+import Portfolio from "./portfolio/Portfolio";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import About from "./About/About";
 import Header from "./Header";
 
 import '../css/styles.css';
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import Footer from "./Footer";
+
 
 function Home() {
     return (

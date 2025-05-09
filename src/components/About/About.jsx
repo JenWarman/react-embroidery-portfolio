@@ -14,8 +14,8 @@ function About() {
             voluptatem rem magni eveniet accusamus nesciunt.
           </p>
           <a href="" className="about-link">
-            <div className="about-btn">
-              <span className="about-btn-text">Learn more</span>
+            <div className="btn">
+              <span className="btn-text">Learn more</span>
             </div>
           </a>
         </div>

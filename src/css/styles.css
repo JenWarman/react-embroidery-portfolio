@@ -76,25 +76,6 @@ p {
   color: white;
   text-align: center;
 }
-.about-btn {
-  height: 4rem;
-  width: 20rem;
-  background-color: rgb(152, 77, 90);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30rem;
-  transition: all 0.3s;
-}
-.about-btn-text {
-  font-size: 1.6rem;
-  font-family: "Nanum Gothic Coding", monospace;
-  text-transform: uppercase;
-}
-.about-btn:hover {
-  background-color: rgb(118.1484716157, 59.8515283843, 69.9563318777);
-  transform: scale(1.1);
-}
 
 .bg {
   position: absolute;
@@ -154,52 +135,6 @@ p {
   color: rgb(152, 77, 90);
   text-transform: uppercase;
   letter-spacing: 1rem;
-}
-.contact-form {
-  display: flex;
-  width: 50%;
-  flex-direction: column;
-  font-size: 4rem;
-  color: rgb(152, 77, 90);
-  text-transform: uppercase;
-}
-.contact-form-input {
-  width: 100%;
-  font-family: "Nanum Gothic Coding", monospace;
-  font-size: 2rem;
-  padding: 1rem;
-}
-.contact-form-textarea {
-  width: 100%;
-  font-family: "Nanum Gothic Coding", monospace;
-  font-size: 2rem;
-  padding: 1rem;
-}
-.contact-form-textarea-label {
-  font-family: inherit;
-}
-.contact-form-btn {
-  height: 4rem;
-  width: 20rem;
-  background-color: rgb(152, 77, 90);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30rem;
-  transition: all 0.3s;
-  align-self: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-.contact-form-btn-text {
-  font-size: 1.6rem;
-  font-family: "Nanum Gothic Coding", monospace;
-  text-transform: uppercase;
-  color: white;
-}
-.contact-form-btn:hover {
-  background-color: rgb(118.1484716157, 59.8515283843, 69.9563318777);
-  transform: scale(1.1);
 }
 
 .footer {
@@ -281,6 +216,73 @@ p {
   color: rgb(194.8122270742, 136.1877729258, 146.3493449782);
   transform: scale(1.5);
   text-decoration: dashed;
+}
+
+.btn {
+  height: 4rem;
+  width: 20rem;
+  background-color: rgb(152, 77, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rem;
+  transition: all 0.3s;
+}
+.btn-text {
+  font-size: 1.6rem;
+  font-family: "Nanum Gothic Coding", monospace;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: rgb(118.1484716157, 59.8515283843, 69.9563318777);
+  transform: scale(1.1);
+}
+
+.form {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  font-size: 4rem;
+  color: rgb(152, 77, 90);
+  text-transform: uppercase;
+}
+.form-input {
+  width: 100%;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.form-textarea {
+  width: 100%;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.form-textarea-label {
+  font-family: inherit;
+}
+.form-btn {
+  height: 4rem;
+  width: 20rem;
+  background-color: rgb(152, 77, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rem;
+  transition: all 0.3s;
+  align-self: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.form-btn-text {
+  font-size: 1.6rem;
+  font-family: "Nanum Gothic Coding", monospace;
+  text-transform: uppercase;
+  color: white;
+}
+.form-btn:hover {
+  background-color: rgb(118.1484716157, 59.8515283843, 69.9563318777);
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=styles.css.map */

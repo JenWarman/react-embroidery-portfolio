@@ -3,6 +3,7 @@ import Home from './components/Home'
 import AboutPage from './components/About/AboutPage'
 import Navbar from './components/Navbar'
 import PortfolioGallery from './components/portfolio/PortfolioGallery'
+import Footer from './components/Footer'
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Route path='/about' element={<AboutPage/>}></Route>
       <Route path='/portfolio' element={<PortfolioGallery/>}></Route>
      </Routes>
+     <Footer/>
     </>
   )
 }

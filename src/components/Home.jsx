@@ -1,6 +1,5 @@
 import Portfolio from "./portfolio/Portfolio";
 import Contact from "./Contact";
-import Footer from "./Footer";
 import About from "./About/About";
 import Header from "./Header";
 
@@ -14,7 +13,6 @@ function Home() {
         <About/>
         <Portfolio/>
         <Contact/>
-        <Footer/>
         </div>
     )
 }

@@ -25,7 +25,7 @@ p {
 }
 
 .header {
-  background-image: url(/images/Header.png);
+  background-image: url(../assets/Header.png);
   width: 100%;
   height: 100vh;
   margin-left: 10rem;
@@ -33,6 +33,77 @@ p {
   background-position: center;
   display: flex;
   margin-bottom: 10rem;
+}
+
+.about {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding-top: 5rem;
+}
+.about-image {
+  width: 40%;
+  padding-left: 20rem;
+  position: relative;
+  z-index: 1;
+}
+.about img {
+  height: 100%;
+}
+.about-text {
+  width: 60%;
+  position: relative;
+  z-index: 1;
+  padding-top: 26rem;
+}
+.about-heading {
+  font-size: 18rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+.about-description {
+  padding-right: 20rem;
+  padding-top: 2rem;
+  font-size: 2rem;
+  color: rgb(152, 77, 90);
+  padding-bottom: 4rem;
+}
+.about-link {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.about-btn {
+  height: 4rem;
+  width: 20rem;
+  background-color: rgb(152, 77, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rem;
+  transition: all 0.3s;
+}
+.about-btn-text {
+  font-size: 1.6rem;
+  font-family: "Nanum Gothic Coding", monospace;
+  text-transform: uppercase;
+}
+.about-btn:hover {
+  background-color: rgb(118.1484716157, 59.8515283843, 69.9563318777);
+  transform: scale(1.1);
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: linear-gradient(to bottom, rgb(216, 191, 195) 0%, rgb(216, 191, 195) 70%, white 70%, white 100%);
 }
 
 .nav {

@@ -1,0 +1,33 @@
+@keyframes scrollVertical {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+  
+  .portfolio-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #a05b71;
+    padding: 2rem;
+    height: 100vh;
+    overflow: hidden;
+  
+    .scroll-column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation: none;
+  
+      &:hover {
+        animation: scrollVertical 10s linear infinite;
+        animation-duration: 6s;
+      }
+    }
+
+  }
+  
+  

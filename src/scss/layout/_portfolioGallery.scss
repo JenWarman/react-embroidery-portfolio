@@ -11,7 +11,16 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
-    background-color: #a05b71;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($secondary-color, 0.8),
+        rgba($primary-color, 1.8)
+      ),
+      url(/ThreadBG.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 2rem;
     height: 100vh;
     overflow: hidden;
@@ -20,10 +29,12 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      animation: none;
+      animation: scrollVertical 10s linear infinite;
+      animation-play-state: paused;
   
       &:hover {
-        animation: scrollVertical 10s linear infinite;
+        
+        animation-play-state: running;
         animation-duration: 6s;
       }
     }

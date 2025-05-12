@@ -224,6 +224,102 @@ p {
   animation-duration: 6s;
 }
 
+.about-page {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+.about-page img {
+  height: 80rem;
+  padding: 0 5rem;
+}
+.about-page-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-page-1-img {
+  width: 50%;
+  margin-left: 36rem;
+}
+.about-page-1-info {
+  width: 50%;
+  margin-right: 36rem;
+  display: flex;
+  flex-direction: column;
+}
+.about-page-1-heading {
+  font-size: 18rem;
+  text-transform: uppercase;
+}
+.about-page-1-text {
+  font-size: 2.5rem;
+}
+.about-page-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-page-2-img {
+  width: 50%;
+}
+.about-page-2-info {
+  width: 50%;
+  margin-left: 36rem;
+  display: flex;
+  flex-direction: column;
+}
+.about-page-2-heading {
+  font-size: 18rem;
+  text-transform: uppercase;
+}
+.about-page-2-text {
+  font-size: 2.5rem;
+}
+.about-page-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-page-3-img {
+  width: 50%;
+  margin-left: 36rem;
+}
+.about-page-3-info {
+  width: 50%;
+  margin-right: 36rem;
+  display: flex;
+  flex-direction: column;
+}
+.about-page-3-heading {
+  font-size: 18rem;
+  text-transform: uppercase;
+}
+.about-page-3-text {
+  font-size: 2.5rem;
+}
+.about-page-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-page-4-img {
+  width: 50%;
+}
+.about-page-4-info {
+  width: 50%;
+  margin-left: 36rem;
+  display: flex;
+  flex-direction: column;
+}
+.about-page-4-heading {
+  font-size: 18rem;
+  text-transform: uppercase;
+}
+.about-page-4-text {
+  font-size: 2.5rem;
+}
+
 .nav {
   display: flex;
   width: 100%;

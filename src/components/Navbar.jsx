@@ -5,6 +5,11 @@ function Navbar() {
     <nav className="nav">
       <ul className="nav-list">
         <li className="nav-list-item">
+          <Link to="/" className="nav-list-link">
+            Home
+          </Link>
+        </li>
+        <li className="nav-list-item">
           <Link to="/about" className="nav-list-link">
             About
           </Link>

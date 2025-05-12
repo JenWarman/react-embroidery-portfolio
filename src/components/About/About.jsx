@@ -13,7 +13,7 @@ function About() {
             tenetur cum ullam adipisci odio facilis saepe enim. Officiis dicta
             voluptatem rem magni eveniet accusamus nesciunt.
           </p>
-          <a href="" className="about-link">
+          <a href="/about" className="about-link">
             <div className="btn">
               <span className="btn-text">Learn more</span>
             </div>

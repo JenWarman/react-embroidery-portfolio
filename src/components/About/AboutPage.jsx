@@ -1,7 +1,7 @@
 function AboutPage() {
   return (
     <section className="about-page" id="about">
-      <div className="about-page-main">
+     
         <div className="about-page-1">
           <div className="about-page-1-img">
             <img src="/profileimg.png" alt="" />
@@ -69,7 +69,7 @@ function AboutPage() {
             <img src="/ChihuahuaCloseup.png" alt="" />
           </div>
         </div>
-      </div>
+    
     </section>
   );
 }

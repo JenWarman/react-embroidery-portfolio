@@ -225,46 +225,47 @@ p {
 
 .about-page {
   display: flex;
-  width: 100%;
-  margin-bottom: 10rem;
+  width: 70%;
+  margin: 10rem auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(152, 77, 90);
 }
 .about-page img {
-  height: 80rem;
+  height: 100%;
   padding: 0 5rem;
 }
 .about-page-1 {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .about-page-1-img {
   width: 50%;
-  margin-left: 36rem;
 }
 .about-page-1-info {
   width: 50%;
-  margin-right: 36rem;
   display: flex;
   flex-direction: column;
 }
 .about-page-1-heading {
   font-size: 18rem;
   text-transform: uppercase;
+  letter-spacing: 1rem;
 }
 .about-page-1-text {
   font-size: 2.5rem;
 }
 .about-page-2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .about-page-2-img {
-  width: 50%;
+  width: 30%;
+  margin-top: -30rem;
 }
 .about-page-2-info {
-  width: 50%;
-  margin-left: 36rem;
+  width: 70%;
   display: flex;
   flex-direction: column;
 }
@@ -282,11 +283,9 @@ p {
 }
 .about-page-3-img {
   width: 50%;
-  margin-left: 30rem;
 }
 .about-page-3-info {
   width: 50%;
-  margin-right: 36rem;
   display: flex;
   flex-direction: column;
 }
@@ -303,12 +302,10 @@ p {
   align-items: center;
 }
 .about-page-4-img {
-  width: 50%;
-  margin-right: 20rem;
+  width: 30%;
 }
 .about-page-4-info {
-  width: 50%;
-  margin-left: 36rem;
+  width: 70%;
   display: flex;
   flex-direction: column;
 }

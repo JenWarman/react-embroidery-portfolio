@@ -30,9 +30,8 @@ p {
   height: 100vh;
   margin-left: 10rem;
   background-size: cover;
-  background-position: center;
+  background-position: 50% 70%;
   display: flex;
-  margin-bottom: 10rem;
 }
 
 .about {
@@ -283,7 +282,7 @@ p {
 }
 .about-page-3-img {
   width: 50%;
-  margin-left: 36rem;
+  margin-left: 30rem;
 }
 .about-page-3-info {
   width: 50%;
@@ -305,6 +304,7 @@ p {
 }
 .about-page-4-img {
   width: 50%;
+  margin-right: 20rem;
 }
 .about-page-4-info {
   width: 50%;

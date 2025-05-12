@@ -2,8 +2,6 @@ function AboutPage() {
   return (
     <section className="about-page" id="about">
       <div className="about-page-main">
-        {/* <div className="bg"></div> */}
-
         <div className="about-page-1">
           <div className="about-page-1-img">
             <img src="/profileimg.png" alt="" />

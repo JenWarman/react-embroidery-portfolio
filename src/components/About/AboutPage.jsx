@@ -1,75 +1,54 @@
 function AboutPage() {
   return (
     <section className="about-page" id="about">
-     
-        <div className="about-page-1">
-          <div className="about-page-1-img">
-            <img src="/profileimg.png" alt="" />
-          </div>
-          <div className="about-page-1-info">
-            <h1 className="about-page-1-heading">About</h1>
-            <p className="about-page-1-text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos id
-              maxime, libero quo explicabo, a ex minima repellat magnam
-              praesentium dolor. Sit velit sunt incidunt tempora facere, earum
-              soluta! Earum aliquid suscipit culpa in beatae dolor dolores
-              possimus, fugit similique vero dolorum quam natus sed nihil quae
-              fugiat id nemo?
-            </p>
-          </div>
+      <div className="about-page-main">
+        <div className="about-page-img">
+          <img src="/profileimg.png" alt="" />
         </div>
-
-        <div className="about-page-2">
-          <div className="about-page-2-info">
-            <p className="about-page-2-text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos id
-              maxime, libero quo explicabo, a ex minima repellat magnam
-              praesentium dolor. Sit velit sunt incidunt tempora facere, earum
-              soluta! Earum aliquid suscipit culpa in beatae dolor dolores
-              possimus, fugit similique vero dolorum quam natus sed nihil quae
-              fugiat id nemo?
-            </p>
-          </div>
-          <div className="about-page-2-img">
-            <img src="/EmbroideryCloseup.png" alt="" />
-          </div>
+        <div className="about-page-text">
+          <h1 className="about-page-heading">About</h1>
+          <p className="about-page-intro">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+            illum labore dicta earum iure provident temporibus! Illo ad
+            dignissimos doloremque fuga quam unde. Aliquid quos ducimus
+            doloribus. Tenetur, vitae consequatur?
+          </p>
         </div>
-
-        <div className="about-page-3">
-          <div className="about-page-3-img">
-            <img src="/ScreenPrinting.png" alt="" />
-          </div>
-          <div className="about-page-3-info">
-            <p className="about-page-3-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-              adipisci cumque! Laborum nulla illo amet, eum eveniet eos sapiente
-              facilis similique commodi mollitia temporibus quos sint eaque sed
-              animi eligendi ex, iure quod tenetur dignissimos voluptate ut
-              dolore odit? Et odit, ducimus delectus excepturi tenetur nostrum
-              ea accusantium ipsam esse doloremque quasi necessitatibus cumque
-              consequuntur consequatur. Totam dolorem assumenda iste? Placeat
-              pariatur deleniti ipsam tenetur, veritatis dignissimos a nostrum
-              numquam!
-            </p>
-          </div>
-        </div>
-
-        <div className="about-page-4">
-          <div className="about-page-4-info">
-            <p className="about-page-4-text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos id
-              maxime, libero quo explicabo, a ex minima repellat magnam
-              praesentium dolor. Sit velit sunt incidunt tempora facere, earum
-              soluta! Earum aliquid suscipit culpa in beatae dolor dolores
-              possimus, fugit similique vero dolorum quam natus sed nihil quae
-              fugiat id nemo?
-            </p>
-          </div>
-          <div className="about-page-4-img">
-            <img src="/ChihuahuaCloseup.png" alt="" />
-          </div>
-        </div>
-    
+      </div>
+      <div className="about-page-body">
+        <p className="about-page-body-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
+          provident omnis dolorum maxime voluptate animi quibusdam rerum enim
+          sapiente a tempore exercitationem, laudantium architecto. Veniam vel
+          asperiores neque aliquam maxime at. Maxime eius voluptatem, enim est
+          ex nobis dignissimos consectetur iure minus minima, accusantium nulla
+          quod itaque libero odio. Nesciunt minima quibusdam sunt, natus
+          asperiores expedita itaque eligendi dicta obcaecati quae temporibus
+          ipsa, odit laudantium quos illo illum praesentium repudiandae earum
+          eos tenetur iste incidunt. Cum odio ipsam numquam corporis tenetur
+          explicabo nam aspernatur dolore iste inventore obcaecati quas
+          officiis, ipsa quod totam. Optio sapiente nam beatae cupiditate rerum
+          ipsam.
+          <br></br>
+          <br></br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
+          sit fugiat dolorem. Magni, voluptas. Molestiae repellat saepe, nam
+          atque praesentium distinctio nisi debitis dolor aliquid eaque
+          exercitationem perspiciatis voluptatibus expedita repellendus dolorum,
+          nemo qui recusandae hic, reiciendis veritatis? Inventore nesciunt est
+          facilis quibusdam officiis, repellat error, autem animi rem
+          accusantium aut non tempora vero. Necessitatibus, vel qui quibusdam
+          veritatis voluptatibus nisi, culpa odit quaerat alias perspiciatis
+          doloribus itaque molestiae aut soluta exercitationem? Nulla deleniti
+          minus nemo.
+          <br></br>
+          <br></br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
+          magni ab eligendi. Temporibus omnis ratione architecto consectetur
+          officia placeat nihil sed quam voluptatum labore, possimus excepturi
+          est ex aspernatur.
+        </p>
+      </div>
     </section>
   );
 }

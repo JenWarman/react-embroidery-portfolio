@@ -226,6 +226,7 @@ p {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 10rem;
 }
 .about-page_banner {
   height: 80vh;
@@ -257,21 +258,34 @@ p {
   height: 80%;
   padding-left: 20rem;
 }
-.about-page_content {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
 .about-page_content-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 30rem;
+  padding: 5rem 25rem;
 }
 .about-page_content-paragraph {
   font-size: 3rem;
   color: rgb(152, 77, 90);
+  line-height: 1.8;
+  text-align: justify;
 }
+.about-page_content-img-right {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  float: right;
+  margin: 0 0 2rem 2rem;
+  shape-outside: circle(50%);
+  clip-path: circle();
+}
+.about-page_content-img-left {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  float: left;
+  margin: 0 2rem 2rem 0;
+  shape-outside: circle(50%);
+  clip-path: circle();
+}
+
 .nav {
   display: flex;
   width: 100%;

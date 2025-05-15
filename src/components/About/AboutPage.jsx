@@ -16,63 +16,98 @@ function AboutPage() {
         </div>
       </div>
 
-      <div className="about-page_content">
-        <div className="about-page_content-section">
-          <div className="about-page_content-text">
-            <p className="about-page_content-paragraph">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Accusamus similique velit iusto deleniti, excepturi cumque
-              quibusdam commodi obcaecati mollitia voluptatem distinctio
-              accusantium natus vel dicta magnam quos, nihil quidem minus labore
-              numquam qui ut voluptatibus expedita nobis! Optio labore ipsum
-              tenetur dicta id ex et, sit incidunt nemo eligendi accusamus
-              aliquam pariatur omnis nam possimus illum expedita iure rem minus
-              quo neque culpa deserunt tempore? Veritatis eligendi aliquam
-              veniam obcaecati facilis voluptatem nisi fuga corrupti, nesciunt,
-              vitae repellendus facere assumenda?
-            </p>
-          </div>
-          <div className="about-page_content-img">
-            <img src="EmbroideryCloseup.png" alt="" />
-          </div>
+      <div className="about-page_content-section">
+        <div className="about-page_content-text-img-wrapper">
+          <img
+            src="GingerCat.jpg"
+            alt="Chihuahua"
+            className="about-page_content-img-right"
+          />
+          <p className="about-page_content-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            maiores sequi quia ipsa nemo, corporis incidunt eius. Velit, sequi.
+            Expedita doloribus corporis eum quaerat praesentium ad eveniet sit
+            fugit quasi, maxime aut nostrum necessitatibus accusantium odit ipsa
+            officia? Placeat quia expedita asperiores, facere nesciunt nisi,
+            sequi optio veniam dolores ab voluptatum corrupti explicabo harum at
+            repellat, autem sit nam voluptates repellendus quo. Illo eveniet
+            sint qui dolore, dicta recusandae inventore rerum modi. Aut fugit
+            quos voluptates, deleniti iste sit consequuntur inventore rem harum
+            hic cum iusto excepturi maiores culpa pariatur, earum ut nulla sed
+            ea voluptatibus, quod officia quis ipsam?
+          </p>
         </div>
+      </div>
 
-        <div className="about-page_content-section">
-          <div className="about-page_content-img">
-            <img src="ScreenPrinting.png" alt="" />
-          </div>
-          <div className="about-page_content-text">
-            <p className="about-page_content-paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia amet
-              voluptatem dolorem a natus voluptatibus numquam omnis dignissimos,
-              id, et enim, sunt suscipit similique dolorum praesentium incidunt
-              nihil commodi laudantium! Nobis perferendis vero assumenda
-              quisquam veniam nam, pariatur eveniet, velit fugiat adipisci
-              corrupti inventore quia asperiores eos accusamus dolores
-              cupiditate eligendi, ad recusandae! Ducimus, quaerat.
-            </p>
-          </div>
+      <div className="about-page_content-section">
+        <div className="about-page_content-text-img-wrapper">
+          <img
+            src="FoxTerrier.jpg"
+            alt="Chihuahua"
+            className="about-page_content-img-left"
+          />
+          <p className="about-page_content-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, magni!
+            Perspiciatis, repudiandae expedita! Laboriosam, a rem porro iste
+            possimus velit distinctio quasi commodi deleniti molestias quidem
+            accusantium necessitatibus vero dolor illo doloribus voluptas et
+            perferendis unde quisquam adipisci atque incidunt quis. Molestiae,
+            pariatur nulla? Perferendis quae debitis quidem nam illo nemo,
+            perspiciatis ad aliquid maxime at, accusamus nihil vitae voluptatum
+            culpa? Odit odio quis at, facilis commodi sed expedita assumenda
+            perspiciatis, vel possimus obcaecati ipsam dolor optio culpa
+            asperiores iste? Magni voluptatum, ex mollitia molestias, sed
+            quaerat distinctio sapiente, nihil alias nostrum quae provident
+            recusandae minus a quibusdam reprehenderit ab?
+          </p>
         </div>
+      </div>
 
-        <div className="about-page_content-section">
-          <div className="about-page_content-text">
-            <p className="about-page_content-paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              possimus soluta, atque exercitationem culpa a quos aspernatur quam
-              sequi, aliquam beatae maxime architecto? Quidem, quisquam hic
-              autem molestias quo veniam est ullam tempora doloribus consectetur
-              debitis, quam similique tempore repudiandae rerum id aliquam sequi
-              voluptatem sed totam maxime? Nam inventore hic quo corporis,
-              assumenda culpa quaerat id totam dignissimos ea aperiam obcaecati
-              quis sequi suscipit reprehenderit ex perspiciatis, voluptatum
-              molestiae omnis perferendis accusantium cupiditate? Nobis eligendi
-              quo quidem, fugit nihil reiciendis, repudiandae nulla, distinctio
-              animi velit reprehenderit dolorem fuga esse?
-            </p>
-          </div>
-          <div className="about-page_content-img">
-            <img src="ChihuahuaCloseup.png" alt="" />
-          </div>
+      <div className="about-page_content-section">
+        <div className="about-page_content-wrapper">
+          <img
+            src="Chihuahua.jpg"
+            alt="Chihuahua"
+            className="about-page_content-img-right"
+          />
+          <p className="about-page_content-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            ducimus est autem qui explicabo atque nobis distinctio molestiae?
+            Modi, voluptatum vel sequi odio ipsa velit autem quibusdam deserunt
+            quasi, doloremque earum quos. Obcaecati odio fuga commodi quam,
+            tempora nobis minus rem pariatur accusamus explicabo, animi
+            reprehenderit beatae cumque eos itaque. Similique itaque modi
+            repellendus nostrum, reprehenderit incidunt nulla tenetur minima,
+            accusamus veritatis in iure, distinctio unde mollitia eum molestiae
+            iste ex id. Vitae ratione, ipsum quaerat qui facere alias, commodi
+            fugiat aspernatur quasi exercitationem eius libero, delectus facilis
+            debitis. Quae eum ad delectus recusandae vitae architecto vero
+            exercitationem corporis dolor?
+          </p>
+        </div>
+      </div>
+
+      <div className="about-page_content-section">
+        <div className="about-page_content-text-img-wrapper">
+          <img
+            src="FoxTerrier.jpg"
+            alt="Chihuahua"
+            className="about-page_content-img-left"
+          />
+          <p className="about-page_content-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, magni!
+            Perspiciatis, repudiandae expedita! Laboriosam, a rem porro iste
+            possimus velit distinctio quasi commodi deleniti molestias quidem
+            accusantium necessitatibus vero dolor illo doloribus voluptas et
+            perferendis unde quisquam adipisci atque incidunt quis. Molestiae,
+            pariatur nulla? Perferendis quae debitis quidem nam illo nemo,
+            perspiciatis ad aliquid maxime at, accusamus nihil vitae voluptatum
+            culpa? Odit odio quis at, facilis commodi sed expedita assumenda
+            perspiciatis, vel possimus obcaecati ipsam dolor optio culpa
+            asperiores iste? Magni voluptatum, ex mollitia molestias, sed
+            quaerat distinctio sapiente, nihil alias nostrum quae provident
+            recusandae minus a quibusdam reprehenderit ab?
+          </p>
         </div>
       </div>
     </section>

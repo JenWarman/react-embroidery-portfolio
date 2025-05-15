@@ -1,31 +1,153 @@
-.nav {
+// .nav {
+//     display: flex;
+//     width: 100%;
+//     justify-content: flex-end;
+//     font-family: "Nanum Gothic Coding";
+//     padding-top: 2rem;
+//     padding-right: 14rem;
+//     transition: all 0.2s;
+
+//     &-list {
+//       list-style: none;
+//       display: flex;
+
+//       &-item {
+//         padding: 1rem 2rem;
+//         text-transform: uppercase;
+//         font-size: 4rem;
+//       }
+
+//       &-link {
+//         text-decoration: none;
+
+//         &:hover {
+//           color: lighten($primary-color, 20%);
+//           transform: scale(1.5);
+//           text-decoration: dashed;
+//         }
+//       }
+//     }
+//   }
+
+// .main-navigation {
+//   height: 100vh;
+//   width: 100%;
+//   display: flex;
+
+//   padding: 0;
+//   margin: 0;
+//   position: fixed;
+
+//   &_tab {
+//     height: 100%;
+//     width: 60px;
+//     min-width: 60px;
+//     position: relative;
+//     cursor: pointer;
+//     text-decoration: none;
+//     will-change: width;
+//   }
+
+//   span {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform-origin: cover;
+//     transform: translateY(-50%) translateX(-50%) rotate(90deg);
+//     font-size: 10rem;
+//     color: white;
+//     text-transform: uppercase;
+//     letter-spacing: 1.5rem;
+//   }
+// }
+
+// .main-navigation_tab.open {
+//   width: 100%;
+// }
+
+// .nav-home {
+//   background-color: $secondary-color;
+// }
+
+// .nav-about {
+//   background-color: $primary-color;
+// }
+
+// .nav-portfolio {
+//   background-color: rgb(77, 86, 152);
+// }
+
+// .nav-contact {
+//  background-color: rgb(77, 152, 151);
+// }
+
+.main-navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  z-index: 1000;
+
+  &_tab {
+    height: 100vh;
+    width: 10rem;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    position: relative;
     display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    font-family: "Nanum Gothic Coding";
-    padding-top: 2rem;
-    padding-right: 14rem;
-    transition: all 0.2s;
-  
-    &-list {
-      list-style: none;
-      display: flex;
-  
-      &-item {
-        padding: 1rem 2rem;
-        text-transform: uppercase;
-        font-size: 4rem;
-      }
-  
-      &-link {
-        text-decoration: none;
-  
-        &:hover {
-          color: lighten($primary-color, 20%);
-          transform: scale(1.5);
-          text-decoration: dashed;
-        }
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    span {
+      writing-mode: vertical-rl;
+      transform: rotate(0deg);
+      color: white;
+      font-size: 8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      transition: all 0.3s ease;
+    }
+
+    &.open {
+      width: 100vw;
+      height: 100vh;
+
+      span {
+        display: none;
       }
     }
   }
-  
+
+  .nav-home {
+    opacity: 0;
+
+    span {
+      visibility: none;
+    }
+  }
+  .nav-about {
+    background-color: $secondary-color;
+  }
+  .nav-portfolio {
+    background-color: $primary-color;
+  }
+  .nav-contact {
+    background-color: rgb(77, 108, 152);
+  }
+}
+
+.main-navigation_content {
+  position: absolute;
+  inset: 0;
+  padding: 4rem;
+  color: white;
+  overflow: auto;
+  font-size: 1.5rem;
+  z-index: 1;
+}

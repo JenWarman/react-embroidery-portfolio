@@ -26,9 +26,8 @@ p {
 
 .header {
   background-image: url(/Header.png);
-  width: 100%;
+  width: 80%;
   height: 100vh;
-  margin-left: 10rem;
   background-size: cover;
   background-position: 50% 70%;
   display: flex;
@@ -297,31 +296,69 @@ p {
     opacity: 1;
   }
 }
-.nav {
+.main-navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  width: 100%;
+  flex-direction: row;
   justify-content: flex-end;
-  font-family: "Nanum Gothic Coding";
-  padding-top: 2rem;
-  padding-right: 14rem;
-  transition: all 0.2s;
+  z-index: 1000;
 }
-.nav-list {
-  list-style: none;
-  display: flex;
-}
-.nav-list-item {
-  padding: 1rem 2rem;
-  text-transform: uppercase;
-  font-size: 4rem;
-}
-.nav-list-link {
+.main-navigation_tab {
+  height: 100vh;
+  width: 10rem;
+  overflow: hidden;
+  transition: all 0.4s ease;
   text-decoration: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
-.nav-list-link:hover {
-  color: rgb(194.8122270742, 136.1877729258, 146.3493449782);
-  transform: scale(1.5);
-  text-decoration: dashed;
+.main-navigation_tab span {
+  writing-mode: vertical-rl;
+  transform: rotate(0deg);
+  color: white;
+  font-size: 8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease;
+}
+.main-navigation_tab.open {
+  width: 100vw;
+  height: 100vh;
+}
+.main-navigation_tab.open span {
+  display: none;
+}
+.main-navigation .nav-home {
+  opacity: 0;
+}
+.main-navigation .nav-home span {
+  visibility: none;
+}
+.main-navigation .nav-about {
+  background-color: rgb(216, 191, 195);
+}
+.main-navigation .nav-portfolio {
+  background-color: rgb(152, 77, 90);
+}
+.main-navigation .nav-contact {
+  background-color: rgb(77, 108, 152);
+}
+
+.main-navigation_content {
+  position: absolute;
+  inset: 0;
+  padding: 4rem;
+  color: white;
+  overflow: auto;
+  font-size: 1.5rem;
+  z-index: 1;
 }
 
 .btn {

@@ -259,7 +259,12 @@ p {
   padding-left: 20rem;
 }
 .about-page_content-section {
-  padding: 5rem 25rem;
+  padding: 2rem 25rem;
+  scale: 0.8;
+  opacity: 0;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
 }
 .about-page_content-paragraph {
   font-size: 3rem;
@@ -272,7 +277,7 @@ p {
   height: 500px;
   border-radius: 50%;
   float: right;
-  margin: 0 0 2rem 2rem;
+  margin: 0 0 6rem 6rem;
   shape-outside: circle(50%);
   clip-path: circle();
 }
@@ -281,11 +286,17 @@ p {
   height: 500px;
   border-radius: 50%;
   float: left;
-  margin: 0 2rem 2rem 0;
+  margin: 0 6rem 6rem 0;
   shape-outside: circle(50%);
   clip-path: circle();
 }
 
+@keyframes fade-in {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
 .nav {
   display: flex;
   width: 100%;

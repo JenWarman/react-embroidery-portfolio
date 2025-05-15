@@ -223,50 +223,55 @@ p {
 }
 
 .about-page {
-  display: flex;
   width: 100%;
+  display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  color: white;
-  background-image: linear-gradient(to right bottom, rgba(216, 191, 195, 0.6), #984d5a), url(/ThreadBG.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
-.about-page-main {
+.about-page_banner {
+  height: 80vh;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(216, 191, 195);
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  margin-bottom: 10rem;
 }
-.about-page-text {
-  width: 50%;
+.about-page_banner-text {
   padding-left: 10rem;
+  padding-right: 20rem;
+  width: 60%;
   margin-top: 30rem;
 }
-.about-page-heading {
-  font-size: 35rem;
+.about-page_banner-heading {
+  font-size: 18rem;
   text-transform: uppercase;
-  letter-spacing: 2rem;
+  letter-spacing: 1.5rem;
+  color: white;
 }
-.about-page-intro {
+.about-page_banner p {
   font-size: 3rem;
-  text-align: justify;
+  color: white;
 }
-.about-page img {
-  height: 100%;
-  padding-top: 10rem;
+.about-page_banner-img {
+  height: 80%;
+  padding-left: 20rem;
 }
-.about-page-body {
-  width: 80%;
+.about-page_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
-.about-page-body-text {
+.about-page_content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30rem;
+}
+.about-page_content-paragraph {
   font-size: 3rem;
-  padding: 5rem 10rem 10rem 10rem;
-  text-align: justify;
+  color: rgb(152, 77, 90);
 }
-
 .nav {
   display: flex;
   width: 100%;

@@ -1,53 +1,79 @@
 function AboutPage() {
   return (
-    <section className="about-page" id="about">
-      <div className="about-page-main">
-        <div className="about-page-img">
-          <img src="/profileimg.png" alt="" />
-        </div>
-        <div className="about-page-text">
-          <h1 className="about-page-heading">About</h1>
-          <p className="about-page-intro">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-            illum labore dicta earum iure provident temporibus! Illo ad
-            dignissimos doloremque fuga quam unde. Aliquid quos ducimus
-            doloribus. Tenetur, vitae consequatur?
+    <section className="about-page">
+      <div className="about-page_banner">
+        <img src="profileimg.png" alt="" className="about-page_banner-img" />
+        <div className="about-page_banner-text">
+          <h1 className="about-page_banner-heading">About</h1>
+          <p className="about-age_banner-intro">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa unde
+            laudantium ad iure ratione neque eum dignissimos excepturi facilis
+            perspiciatis explicabo blanditiis voluptatibus, corporis in aperiam
+            saepe. Eligendi in nulla commodi minima. Cumque, laboriosam, fuga
+            cupiditate magnam nostrum, labore asperiores minima est doloremque
+            optio in ratione rem minus accusamus enim.
           </p>
         </div>
       </div>
-      <div className="about-page-body">
-        <p className="about-page-body-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae
-          provident omnis dolorum maxime voluptate animi quibusdam rerum enim
-          sapiente a tempore exercitationem, laudantium architecto. Veniam vel
-          asperiores neque aliquam maxime at. Maxime eius voluptatem, enim est
-          ex nobis dignissimos consectetur iure minus minima, accusantium nulla
-          quod itaque libero odio. Nesciunt minima quibusdam sunt, natus
-          asperiores expedita itaque eligendi dicta obcaecati quae temporibus
-          ipsa, odit laudantium quos illo illum praesentium repudiandae earum
-          eos tenetur iste incidunt. Cum odio ipsam numquam corporis tenetur
-          explicabo nam aspernatur dolore iste inventore obcaecati quas
-          officiis, ipsa quod totam. Optio sapiente nam beatae cupiditate rerum
-          ipsam.
-          <br></br>
-          <br></br>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
-          sit fugiat dolorem. Magni, voluptas. Molestiae repellat saepe, nam
-          atque praesentium distinctio nisi debitis dolor aliquid eaque
-          exercitationem perspiciatis voluptatibus expedita repellendus dolorum,
-          nemo qui recusandae hic, reiciendis veritatis? Inventore nesciunt est
-          facilis quibusdam officiis, repellat error, autem animi rem
-          accusantium aut non tempora vero. Necessitatibus, vel qui quibusdam
-          veritatis voluptatibus nisi, culpa odit quaerat alias perspiciatis
-          doloribus itaque molestiae aut soluta exercitationem? Nulla deleniti
-          minus nemo.
-          <br></br>
-          <br></br>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
-          magni ab eligendi. Temporibus omnis ratione architecto consectetur
-          officia placeat nihil sed quam voluptatum labore, possimus excepturi
-          est ex aspernatur.
-        </p>
+
+      <div className="about-page_content">
+        <div className="about-page_content-section">
+          <div className="about-page_content-text">
+            <p className="about-page_content-paragraph">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus similique velit iusto deleniti, excepturi cumque
+              quibusdam commodi obcaecati mollitia voluptatem distinctio
+              accusantium natus vel dicta magnam quos, nihil quidem minus labore
+              numquam qui ut voluptatibus expedita nobis! Optio labore ipsum
+              tenetur dicta id ex et, sit incidunt nemo eligendi accusamus
+              aliquam pariatur omnis nam possimus illum expedita iure rem minus
+              quo neque culpa deserunt tempore? Veritatis eligendi aliquam
+              veniam obcaecati facilis voluptatem nisi fuga corrupti, nesciunt,
+              vitae repellendus facere assumenda?
+            </p>
+          </div>
+          <div className="about-page_content-img">
+            <img src="EmbroideryCloseup.png" alt="" />
+          </div>
+        </div>
+
+        <div className="about-page_content-section">
+          <div className="about-page_content-img">
+            <img src="ScreenPrinting.png" alt="" />
+          </div>
+          <div className="about-page_content-text">
+            <p className="about-page_content-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia amet
+              voluptatem dolorem a natus voluptatibus numquam omnis dignissimos,
+              id, et enim, sunt suscipit similique dolorum praesentium incidunt
+              nihil commodi laudantium! Nobis perferendis vero assumenda
+              quisquam veniam nam, pariatur eveniet, velit fugiat adipisci
+              corrupti inventore quia asperiores eos accusamus dolores
+              cupiditate eligendi, ad recusandae! Ducimus, quaerat.
+            </p>
+          </div>
+        </div>
+
+        <div className="about-page_content-section">
+          <div className="about-page_content-text">
+            <p className="about-page_content-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              possimus soluta, atque exercitationem culpa a quos aspernatur quam
+              sequi, aliquam beatae maxime architecto? Quidem, quisquam hic
+              autem molestias quo veniam est ullam tempora doloribus consectetur
+              debitis, quam similique tempore repudiandae rerum id aliquam sequi
+              voluptatem sed totam maxime? Nam inventore hic quo corporis,
+              assumenda culpa quaerat id totam dignissimos ea aperiam obcaecati
+              quis sequi suscipit reprehenderit ex perspiciatis, voluptatum
+              molestiae omnis perferendis accusantium cupiditate? Nobis eligendi
+              quo quidem, fugit nihil reiciendis, repudiandae nulla, distinctio
+              animi velit reprehenderit dolorem fuga esse?
+            </p>
+          </div>
+          <div className="about-page_content-img">
+            <img src="ChihuahuaCloseup.png" alt="" />
+          </div>
+        </div>
       </div>
     </section>
   );

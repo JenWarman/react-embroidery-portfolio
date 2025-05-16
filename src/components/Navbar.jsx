@@ -4,6 +4,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 import About from "./About/About";
 import Portfolio from "./portfolio/Portfolio";
+import Contact from "./Contact";
 
 function Navbar() {
   const [openTab, setOpenTab] = useState(null);
@@ -11,13 +12,12 @@ function Navbar() {
 
   const toggleTab = (tabName) => {
     if (openTab === tabName) {
-      // Start closing animation
       setClosingTab(tabName);
 
       setTimeout(() => {
         setOpenTab(null);
         setClosingTab(null);
-      }, 400); // match CSS transition duration
+      }, 400); 
     } else {
       setOpenTab(tabName);
     }
@@ -33,12 +33,13 @@ function Navbar() {
   const tabs = [
     { name: "About", href: "/about", className: "nav-about" },
     { name: "Portfolio", href: "/portfolio", className: "nav-portfolio" },
-    { name: "Contact", href: "#", className: "nav-contact" },
+    { name: "Contact", href: "/contact", className: "nav-contact" },
   ];
 
   const tabContent = {
     About: <About />,
     Portfolio: <Portfolio />,
+    Contact: <Contact/>
   };
 
   return (
@@ -51,8 +52,8 @@ function Navbar() {
         }}
       >
         <Link to="/">
-          MYLOGO
-          {/* <img src="/profileimg.png" alt="Logo" className="logo-img" /> */}
+          
+          <img src="/GingerCat.jpg" alt="Logo" className="logo-img" />
         </Link>
       </div>
 

@@ -331,15 +331,15 @@ p {
 .main-navigation_tab.open {
   width: 100vw;
   height: 100vh;
+  transition: all 0.4s ease;
 }
 .main-navigation_tab.open span {
   display: none;
 }
-.main-navigation .nav-home {
-  opacity: 0;
-}
-.main-navigation .nav-home span {
-  visibility: none;
+.main-navigation_tab.open.closing {
+  width: 0;
+  height: 0;
+  transition: all 0.4s ease;
 }
 .main-navigation .nav-about {
   background-color: rgb(216, 191, 195);
@@ -359,7 +359,22 @@ p {
   overflow: auto;
   font-size: 1.5rem;
   z-index: 1;
-  background-color: blue;
+}
+
+.logo {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1100;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(152, 77, 90);
+  width: 50px;
+  height: auto;
+}
+.logo a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .btn {

@@ -1,45 +1,71 @@
-import { useState } from 'react';
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
-import Home from './Home';
-import About from './About/About';
-import Portfolio from './portfolio/Portfolio';
+import About from "./About/About";
+import Portfolio from "./portfolio/Portfolio";
 
 function Navbar() {
   const [openTab, setOpenTab] = useState(null);
 
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    setOpenTab(null);
+  }, [location]);
+
   const tabs = [
-    { name: 'Home', href: '/', className: 'nav-home' },
-    { name: 'About', href: '/about', className: 'nav-about' },
-    { name: 'Portfolio', href: '/portfolio', className: 'nav-portfolio' },
-    { name: 'Contact', href: '#', className: 'nav-contact' },
+    { name: "About", href: "/about", className: "nav-about" },
+    { name: "Portfolio", href: "/portfolio", className: "nav-portfolio" },
+    { name: "Contact", href: "#", className: "nav-contact" },
   ];
 
   const tabContent = {
-    Home: <Home/>,
-    About: <About/>,
-    Portfolio: <Portfolio/>
-  }
+    About: <About />,
+    Portfolio: <Portfolio />,
+  };
   return (
-   <nav className="main-navigation">
-      {tabs.map((tab) => (
-        <a
-          key={tab.name}
-          href={tab.href}
-          className={`main-navigation_tab ${tab.className} ${openTab === tab.name ? 'open' : ''}`}
-          onClick={(e) => {
-            e.preventDefault();
-            if (tab.name === 'Home') return; 
-            setOpenTab(openTab === tab.name ? null : tab.name);
-          }}
-        >
-          <span>{tab.name}</span>
-          {openTab === tab.name && (
-            <div className="main-navigation_content">
-              {tabContent[tab.name]}
-            </div>
-          )}
-        </a>
-      ))}
+    <nav className="main-navigation">
+      <div className="logo" onClick={() => {
+  setOpenTab(null);
+  navigate('/');
+}}>
+      <Link to="/">MYLOGO
+      {/* <img src="/profileimg.png" alt="Logo" className="logo-img" /> */}
+      </Link>
+    </div>
+
+      {tabs.map((tab) => {
+        const isOpen = openTab === tab.name;
+        const isLink = tab.type === 'link';
+
+        return (
+          <div
+            key={tab.name}
+            className={`main-navigation_tab ${tab.className} ${isOpen ? 'open' : ''}`}
+            onClick={() => {
+              if (isLink) {
+                navigate(tab.href);
+              } else {
+                setOpenTab(isOpen ? null : tab.name);
+              }
+            }}
+            style={{ cursor: 'pointer' }}
+          >
+            <span>{tab.name}</span>
+
+            {!isLink && isOpen && (
+              <div
+                className="main-navigation_content"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {tabContent[tab.name]}
+              </div>
+            )}
+          </div>
+        );
+      })}
     </nav>
   );
 }

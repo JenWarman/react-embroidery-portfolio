@@ -18,7 +18,7 @@ function About() {
         </p>
         <div className="about_link-container">
         <Link to="/about-page" className="about_link-button">
-          Learn more
+          learn more
         </Link>
         </div>
       </div>

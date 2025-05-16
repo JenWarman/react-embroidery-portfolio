@@ -9,7 +9,7 @@ function Portfolio() {
           </Link>
           <div className="portfolio_link-container">
         <Link to="/portfolio-page" className="portfolio_link-button">
-          See more
+          see more
         </Link>
         </div>
         </div>

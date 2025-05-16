@@ -3,11 +3,15 @@ import { Link } from "react-router-dom";
 function Portfolio() {
     return (
         <section className="portfolio" id="portfolio">
-        <div className="portfolio-text">
-          <Link to="/portfolio-page" className="portfolio-link">
+        <div className="portfolio_text">
+          <Link to="/portfolio-page" className="portfolio_link-heading">
           <h1 className="portfolio-heading">portfolio</h1>
           </Link>
-          <Link to="/portfolio-page" className="portfolio-link">see more...</Link>
+          <div className="portfolio_link-container">
+        <Link to="/portfolio-page" className="portfolio_link-button">
+          See more
+        </Link>
+        </div>
         </div>
       </section>
     )

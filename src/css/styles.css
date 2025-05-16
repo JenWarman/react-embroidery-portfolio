@@ -117,11 +117,10 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  margin-top: 10rem;
   justify-content: center;
   align-items: center;
 }
-.portfolio-text {
+.portfolio_text {
   display: flex;
   flex-direction: column;
 }
@@ -131,15 +130,33 @@ p {
   text-transform: uppercase;
   letter-spacing: 2rem;
 }
-.portfolio-link {
+.portfolio_link-heading {
   text-decoration: none;
-  color: white;
-  font-size: 2rem;
-  text-align: end;
-  padding-right: 5rem;
 }
-.portfolio-link:hover {
-  color: rgb(118.1484716157, 59.8515283843, 69.9563318777);
+.portfolio_link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio_link-button {
+  color: rgb(152, 77, 90);
+  height: 4rem;
+  width: 20rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rem;
+  font-size: 2rem;
+  font-family: "Nanum Gothic Coding", monospace;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.portfolio_link-button:hover {
+  background-color: rgb(196.6893203883, 159.3106796117, 165.2912621359);
+  transform: scale(1.1);
+  color: white;
 }
 
 .contact {
@@ -411,6 +428,7 @@ p {
 }
 .logo img:hover {
   scale: 1.1;
+  box-shadow: 2px 2px 10px 2px white;
 }
 
 .btn {

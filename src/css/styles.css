@@ -34,14 +34,14 @@ p {
 }
 
 .about {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   position: relative;
   padding-top: 5rem;
 }
-.about-image {
+.about_image {
   width: 40%;
   padding-left: 20rem;
   position: relative;
@@ -50,28 +50,53 @@ p {
 .about img {
   height: 100%;
 }
-.about-text {
+.about_text {
   width: 60%;
   position: relative;
   z-index: 1;
-  padding-top: 26rem;
+  margin-top: 15rem;
 }
 .about-heading {
-  font-size: 18rem;
+  font-size: 26rem;
   color: white;
   text-transform: uppercase;
-  letter-spacing: 1rem;
+  letter-spacing: 1.5rem;
 }
-.about-description {
-  padding-right: 20rem;
+.about_description {
+  padding-right: 32rem;
   padding-top: 2rem;
-  font-size: 2rem;
+  font-size: 3rem;
   color: rgb(152, 77, 90);
   padding-bottom: 4rem;
+  text-align: justify;
 }
-.about-link {
+.about_link-heading {
   text-decoration: none;
+}
+.about_link-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 32rem;
+}
+.about_link-button {
   color: white;
+  height: 4rem;
+  width: 20rem;
+  background-color: rgb(152, 77, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rem;
+  font-size: 2rem;
+  font-family: "Nanum Gothic Coding", monospace;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.about_link-button:hover {
+  background-color: rgb(118.1484716157, 59.8515283843, 69.9563318777);
+  transform: scale(1.1);
 }
 
 .bg {
@@ -81,7 +106,7 @@ p {
   width: 100%;
   height: 100%;
   z-index: 0;
-  background: linear-gradient(to bottom, rgb(216, 191, 195) 0%, rgb(216, 191, 195) 70%, white 70%, white 100%);
+  background: linear-gradient(to bottom, rgb(216, 191, 195) 0%, rgb(216, 191, 195) 60%, white 60%, white 100%);
 }
 
 .portfolio {
@@ -356,7 +381,6 @@ p {
 .main-navigation_content {
   position: absolute;
   inset: 0;
-  padding: 4rem;
   color: white;
   overflow: auto;
   font-size: 1.5rem;

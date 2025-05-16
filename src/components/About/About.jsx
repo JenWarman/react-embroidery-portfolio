@@ -4,23 +4,23 @@ function About() {
   return (
     <section className="about" id="about">
       <div className="bg"></div>
-      <div className="about-image">
+      <div className="about_image">
         <img src="/profileimg.png" alt="" />
       </div>
-      <div className="about-text">
-        <Link to="/about-page" className="about-link">
+      <div className="about_text">
+        <Link to="/about-page" className="about_link-heading">
           <h1 className="about-heading">About</h1>
         </Link>
-        <p className="about-description">
+        <p className="about_description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, tenetur
           cum ullam adipisci odio facilis saepe enim. Officiis dicta voluptatem
           rem magni eveniet accusamus nesciunt.
         </p>
-        <Link to="/about-page" className="about-link">
-          <div className="btn">
-            <span className="btn-text">Learn more</span>
-          </div>
+        <div className="about_link-container">
+        <Link to="/about-page" className="about_link-button">
+          Learn more
         </Link>
+        </div>
       </div>
     </section>
   );

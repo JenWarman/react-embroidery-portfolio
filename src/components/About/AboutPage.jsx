@@ -8,13 +8,11 @@ function AboutPage() {
           <img src="profileimg.png" alt="" className="about-page_banner-img" />
           <div className="about-page_banner-text">
             <h1 className="about-page_banner-heading">About</h1>
-            <p className="about-age_banner-intro">
+            <p className="about-page_banner-intro">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
               unde laudantium ad iure ratione neque eum dignissimos excepturi
               facilis perspiciatis explicabo blanditiis voluptatibus, corporis
-              in aperiam saepe. Eligendi in nulla commodi minima. Cumque,
-              laboriosam, fuga cupiditate magnam nostrum, labore asperiores
-              minima est doloremque optio in ratione rem minus accusamus enim.
+              in aperiam saepe. Eligendi in nulla commodi minima. 
             </p>
           </div>
         </div>

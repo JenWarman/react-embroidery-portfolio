@@ -6,7 +6,7 @@ I thought it would be a fun challenge to redesign and development an entirely ne
 
 For context this is the [**old version**](https://jenwarman.github.io/PersonalWebsite/)
 
-And this is the [**new version**]((https://jenwarman.github.io/PersonalWebsite/))
+And this is the [**new version**](https://jenwarman.github.io/PersonalWebsite/)
 
 ## Project Objectives
 

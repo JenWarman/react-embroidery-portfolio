@@ -1,5 +1,8 @@
+import Footer from "./Footer";
+
 function Contact() {
     return (
+      <>
         <section className="contact" id="contact">
            <div className="contact_text">
             <h2 className="contact_heading">Contact Me</h2>
@@ -16,6 +19,8 @@ function Contact() {
               <button className="form_btn-text">submit</button>
           </form>
         </section>
+         <Footer/>
+         </>
     )
 }
 

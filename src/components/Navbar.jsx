@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useLocation, useNavigate } from "react-router-dom";
 
-import About from "./About/About";
-import Portfolio from "./portfolio/Portfolio";
+import AboutPage from "./About/AboutPage";
+import PortfolioGallery from "./portfolio/PortfolioGallery";
 import Contact from "./Contact";
 
 function Navbar() {
@@ -37,8 +37,8 @@ function Navbar() {
   ];
 
   const tabContent = {
-    About: <About />,
-    Portfolio: <Portfolio />,
+    About: <AboutPage />,
+    Portfolio: <PortfolioGallery />,
     Contact: <Contact/>
   };
 
@@ -85,6 +85,7 @@ function Navbar() {
         );
       })}
     </nav>
+  
   );
 }
 

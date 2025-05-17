@@ -9,10 +9,10 @@ function AboutPage() {
           <div className="about-page_banner-text">
             <h1 className="about-page_banner-heading">About</h1>
             <p className="about-page_banner-intro">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-              unde laudantium ad iure ratione neque eum dignissimos excepturi
-              facilis perspiciatis explicabo blanditiis voluptatibus, corporis
-              in aperiam saepe. Eligendi in nulla commodi minima. 
+              Hi, I'm Jen Warman an embroidery artist living in Nottingham
+              creating unique hand embroidered pet portraits. My work is
+              commission only so please contact me to find out how you can order
+              your own portrait of your beloved pet.
             </p>
           </div>
         </div>
@@ -113,7 +113,7 @@ function AboutPage() {
           </div>
         </div>
       </section>
-        <Footer/>
+      <Footer />
     </>
   );
 }

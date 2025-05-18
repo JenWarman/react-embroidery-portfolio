@@ -16,13 +16,40 @@ html {
 }
 
 .header {
-  background-image: url(/Header.png);
-  width: 80%;
+  width: 100%;
   height: 100vh;
-  background-size: cover;
-  background-position: 50% 70%;
   display: flex;
-  margin-left: 10rem;
+  margin-left: 5rem;
+  justify-content: flex-start;
+  align-content: center;
+}
+.header img {
+  height: 100%;
+}
+@media (max-width: 1700px) {
+  .header img {
+    height: 80%;
+  }
+}
+@media (max-width: 1400px) {
+  .header img {
+    height: 70%;
+  }
+}
+@media (max-width: 1300px) {
+  .header img {
+    height: 60%;
+  }
+}
+@media (max-width: 1100px) {
+  .header img {
+    height: 50%;
+  }
+}
+@media (max-width: 1000px) {
+  .header img {
+    height: 40%;
+  }
 }
 
 .about {
@@ -268,17 +295,41 @@ html {
   align-items: center;
 }
 .about-page_banner-text {
-  padding-left: 10rem;
+  padding-left: 8rem;
   padding-right: 20rem;
   width: 60%;
   margin-top: 24rem;
   color: rgb(152, 77, 90);
+}
+@media (max-width: 1400px) {
+  .about-page_banner-text {
+    padding-left: 5rem;
+    padding-right: 10rem;
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width: 1300px) {
+  .about-page_banner-text {
+    padding-left: 3rem;
+    padding-right: 8rem;
+    margin-bottom: 0;
+  }
 }
 .about-page_banner-heading {
   font-size: 28rem;
   text-transform: uppercase;
   letter-spacing: 1.5rem;
   font-family: "Nerko One", cursive;
+}
+@media (max-width: 1700px) {
+  .about-page_banner-heading {
+    font-size: 18rem;
+  }
+}
+@media (max-width: 1500px) {
+  .about-page_banner-heading {
+    font-size: 16rem;
+  }
 }
 .about-page_banner-intro {
   font-size: 3rem;
@@ -287,17 +338,47 @@ html {
   text-align: justify;
   font-family: "Nanum Gothic Coding", monospace;
 }
+@media (max-width: 1700px) {
+  .about-page_banner-intro {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 1500px) {
+  .about-page_banner-intro {
+    font-size: 2rem;
+  }
+}
 .about-page_banner-img {
   height: 80%;
   padding-left: 20rem;
 }
+@media (max-width: 1700px) {
+  .about-page_banner-img {
+    height: 70%;
+  }
+}
+@media (max-width: 1500px) {
+  .about-page_banner-img {
+    height: 60%;
+  }
+}
+@media (max-width: 1400px) {
+  .about-page_banner-img {
+    padding-left: 10rem;
+  }
+}
 .about-page_content-section {
-  padding: 2rem 25rem;
+  padding: 2rem 10rem;
   scale: 0.8;
   opacity: 0;
   animation: fade-in linear forwards;
   animation-timeline: view();
   animation-range: entry;
+}
+@media (max-width: 1400px) {
+  .about-page_content-section {
+    padding: 2rem 10rem;
+  }
 }
 .about-page_content-paragraph {
   font-size: 3rem;
@@ -305,6 +386,16 @@ html {
   line-height: 1.8;
   text-align: justify;
   font-family: "Nanum Gothic Coding", monospace;
+}
+@media (max-width: 1700px) {
+  .about-page_content-paragraph {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 1500px) {
+  .about-page_content-paragraph {
+    font-size: 2rem;
+  }
 }
 .about-page_content-img-right {
   width: 500px;
@@ -315,6 +406,18 @@ html {
   shape-outside: circle(50%);
   clip-path: circle();
 }
+@media (max-width: 1700px) {
+  .about-page_content-img-right {
+    width: 400px;
+    height: 400px;
+    margin: 0 0 4rem 4rem;
+  }
+}
+@media (max-width: 1500px) {
+  .about-page_content-img-right {
+    margin: 0 0 3rem 3rem;
+  }
+}
 .about-page_content-img-left {
   width: 500px;
   height: 500px;
@@ -323,6 +426,18 @@ html {
   margin: 0 6rem 6rem 0;
   shape-outside: circle(50%);
   clip-path: circle();
+}
+@media (max-width: 1700px) {
+  .about-page_content-img-left {
+    width: 400px;
+    height: 400px;
+    margin: 0 4rem 4rem 0;
+  }
+}
+@media (max-width: 1500px) {
+  .about-page_content-img-left {
+    margin: 0 3rem 3rem 0;
+  }
 }
 
 @keyframes fade-in {

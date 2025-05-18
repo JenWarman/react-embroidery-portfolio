@@ -1,4 +1,4 @@
-import Footer from "../Footer";
+
 
 function AboutPage() {
   return (
@@ -102,7 +102,6 @@ function AboutPage() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

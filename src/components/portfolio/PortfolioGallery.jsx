@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PortfolioItem from "./PortfolioItem";
-import Footer from "../Footer"
+
 
 const images = [
   "/BlackCat.jpg",
@@ -40,7 +40,7 @@ function PortfolioGallery() {
     <img src={selectedImage} alt="Full size" />
   </div>
 )}
-<Footer/>
+
     </>
   );
 };

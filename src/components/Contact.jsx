@@ -1,4 +1,4 @@
-import Footer from "./Footer";
+
 
 function Contact() {
     return (
@@ -19,7 +19,7 @@ function Contact() {
               <button className="form_btn-text">submit</button>
           </form>
         </section>
-         <Footer/>
+    
          </>
     )
 }

@@ -19,7 +19,7 @@ function PortfolioGallery() {
 
   const columns = [[], [], [], []];
   images.forEach((img, idx) => {
-    columns[idx % 4].push(img);
+    columns[idx % 3].push(img);
   });
 
 

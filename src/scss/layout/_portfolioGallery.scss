@@ -1,44 +1,53 @@
 @keyframes scrollVertical {
-    0% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateY(-50%);
-    }
+  0% {
+    transform: translateY(0);
   }
-  
-  .portfolio-gallery {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    background-image: linear-gradient(
-        to right bottom,
-        rgba($secondary-color, 0.8),
-        rgba($primary-color, 1.8)
-      ),
-      url(/ThreadBG.png);
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.portfolio-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($secondary-color, 0.8),
+      rgba($primary-color, 1.8)
+    ),
+    url(/ThreadBG.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  height: 100vh;
+  overflow: hidden;
+
+  @media (max-width: 1300px) {
+    gap: 1rem;
+  }
+
+
+  .scroll-column {
     width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 2rem;
-    height: 100vh;
-    overflow: hidden;
-  
-    .scroll-column {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      animation: scrollVertical 10s linear infinite;
-      animation-play-state: paused;
-  
-      &:hover {
-        
-        animation-play-state: running;
-        animation-duration: 6s;
-      }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: scrollVertical 10s linear infinite;
+    animation-play-state: paused;
+
+    &:hover {
+      animation-play-state: running;
+      animation-duration: 8s;
     }
 
+     @media (max-width: 1500px) {
+      width: 80%;
+    }
+    @media (max-width: 1300px) {
+      width: 70%;
+    }
   }
-  
-  
+}

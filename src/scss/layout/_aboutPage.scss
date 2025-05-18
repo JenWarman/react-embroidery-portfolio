@@ -25,6 +25,7 @@
       font-size: 28rem;
       text-transform: uppercase;
       letter-spacing: 1.5rem;
+      font-family: $font-heading;
     }
 
     &-intro {
@@ -32,6 +33,7 @@
       color: $primary-color;
       line-height: 1.8;
       text-align: justify;
+      font-family: $font-paragraph;
     }
 
     &-img {
@@ -55,6 +57,7 @@
       color: $primary-color;
       line-height: 1.8;
       text-align: justify;
+      font-family: $font-paragraph;
     }
 
     &-img-right {

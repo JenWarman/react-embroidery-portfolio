@@ -5,17 +5,18 @@
   font-size: 4rem;
   color: white;
   text-transform: uppercase;
+  font-family: $font-heading;
 
   &_input {
     width: 100%;
-    font-family: "Nanum Gothic Coding", monospace;
+    font-family: $font-paragraph;
     font-size: 2rem;
     padding: 1.5rem;
   }
 
   &_textarea {
     width: 100%;
-    font-family: "Nanum Gothic Coding", monospace;
+    font-family: $font-paragraph;
     font-size: 2rem;
     padding: 1.5rem;
     &-label {
@@ -36,7 +37,7 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 2rem;
-    font-family: "Nanum Gothic Coding", monospace;
+    font-family: $font-paragraph;
     color: $primary-color;
     border: none;
     font-weight: 600;

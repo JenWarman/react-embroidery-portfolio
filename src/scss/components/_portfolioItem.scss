@@ -42,7 +42,7 @@
   transition: all 0.3s ease-in-out;
 
   &-text {
-    font-family: "Nanum Gothic Coding", monospace;
+    font-family: $font-paragraph;
     color: white;
     font-size:3rem;
     opacity: 0;

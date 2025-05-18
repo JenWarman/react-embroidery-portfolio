@@ -16,8 +16,8 @@ function Navbar() {
   const navigate = useNavigate();
 
   const tabs = [
-    { name: "About", href: "/about", className: "nav-about" },
-    { name: "Portfolio", href: "/portfolio", className: "nav-portfolio" },
+    { name: "About", href: "/about-page", className: "nav-about" },
+    { name: "Portfolio", href: "/portfolio-page", className: "nav-portfolio" },
     { name: "Contact", href: "/contact", className: "nav-contact" },
   ];
 

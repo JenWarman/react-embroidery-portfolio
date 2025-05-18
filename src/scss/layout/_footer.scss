@@ -8,7 +8,7 @@
   
     &-text {
       display: flex;
-      font-family: "Nerko One", cursive;
+      font-family: $font-heading;
       color: white;
       text-transform: uppercase;
       font-size: 5rem;
@@ -16,7 +16,7 @@
   
       &-embroidery {
         display: flex;
-        font-family: "Nerko One", cursive;
+        font-family: $font-heading;
         color: white;
         text-transform: uppercase;
         font-size: 5rem;
@@ -49,7 +49,7 @@
   
     &-contactinfo {
       padding: 0 5rem;
-      font-family: "Nanum Gothic Coding", monospace;
+      font-family: $font-paragraph;
       color: white;
       font-size: 2rem;
       padding: 1rem;

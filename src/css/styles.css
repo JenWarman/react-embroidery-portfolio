@@ -177,19 +177,50 @@ html {
 }
 
 .contact {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .contact_heading {
-  font-size: 22rem;
-  color: white;
+  font-size: 18rem;
+  color: rgb(152, 77, 90);
   text-transform: uppercase;
   letter-spacing: 1.1rem;
   font-family: "Nerko One", cursive;
+  text-align: center;
+}
+@media (max-width: 1800px) {
+  .contact_heading {
+    font-size: 16rem;
+  }
+}
+@media (max-width: 1600px) {
+  .contact_heading {
+    font-size: 14rem;
+  }
+}
+@media (max-width: 1400px) {
+  .contact_heading {
+    font-size: 12rem;
+  }
+}
+@media (max-width: 1100px) {
+  .contact_heading {
+    font-size: 8.5rem;
+  }
+}
+@media (max-width: 900px) {
+  .contact_heading {
+    font-size: 6.5rem;
+  }
+}
+@media (max-width: 700px) {
+  .contact_heading {
+    font-size: 4.5rem;
+  }
 }
 
 .footer {
@@ -604,6 +635,11 @@ html {
   justify-content: flex-end;
   z-index: 1000;
 }
+@media (max-width: 1700px) {
+  .main-navigation {
+    width: 16rem;
+  }
+}
 .main-navigation_tab {
   height: 100vh;
   width: 10rem;
@@ -616,6 +652,11 @@ html {
   justify-content: center;
   cursor: pointer;
 }
+@media (max-width: 1700px) {
+  .main-navigation_tab {
+    width: 8rem;
+  }
+}
 .main-navigation_tab span {
   writing-mode: vertical-rl;
   color: white;
@@ -624,6 +665,11 @@ html {
   letter-spacing: 0.1rem;
   transition: all 0.3s ease;
   font-family: "Nerko One", cursive;
+}
+@media (max-width: 1700px) {
+  .main-navigation_tab span {
+    font-size: 4rem;
+  }
 }
 .main-navigation_tab.open {
   position: fixed;
@@ -641,6 +687,11 @@ html {
   height: 100vh;
   transition: all 0.4s ease;
 }
+@media (max-width: 1700px) {
+  .main-navigation_tab.open.closing {
+    width: 8rem;
+  }
+}
 .main-navigation .nav-about {
   background-color: rgb(216, 191, 195);
 }
@@ -648,7 +699,7 @@ html {
   background-color: rgb(152, 77, 90);
 }
 .main-navigation .nav-contact {
-  background-color: rgb(77, 108, 152);
+  background-color: rgb(138, 140, 193);
 }
 
 .main-navigation_content {
@@ -741,15 +792,25 @@ html {
   width: 50%;
   flex-direction: column;
   font-size: 4rem;
-  color: white;
+  color: rgb(152, 77, 90);
   text-transform: uppercase;
   font-family: "Nerko One", cursive;
+}
+@media (max-width: 1100px) {
+  .form {
+    font-size: 3rem;
+  }
 }
 .form_input {
   width: 100%;
   font-family: "Nanum Gothic Coding", monospace;
   font-size: 2rem;
   padding: 1.5rem;
+}
+@media (max-width: 1100px) {
+  .form_input {
+    padding: 1rem;
+  }
 }
 .form_textarea {
   width: 100%;
@@ -760,10 +821,15 @@ html {
 .form_textarea-label {
   font-family: inherit;
 }
+@media (max-width: 1100px) {
+  .form_textarea {
+    padding: 1rem;
+  }
+}
 .form button {
   height: 4rem;
   width: 20rem;
-  background-color: white;
+  background-color: rgb(152, 77, 90);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -774,12 +840,12 @@ html {
   margin-bottom: 2rem;
   font-size: 2rem;
   font-family: "Nanum Gothic Coding", monospace;
-  color: rgb(152, 77, 90);
+  color: white;
   border: none;
   font-weight: 600;
 }
 .form button:hover {
-  background-color: rgb(216, 191, 195);
+  background-color: rgb(177.6637554585, 102.3362445415, 115.3930131004);
   transform: scale(1.1);
 }
 

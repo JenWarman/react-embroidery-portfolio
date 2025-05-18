@@ -10,7 +10,7 @@ function Navbar() {
   const [closingTab, setClosingTab] = useState(null);
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 800);
 
   const location = useLocation();
   const navigate = useNavigate();
@@ -45,7 +45,7 @@ function Navbar() {
   }, [location]);
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    const handleResize = () => setIsMobile(window.innerWidth < 800);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);

@@ -9,6 +9,10 @@
   justify-content: flex-end;
   z-index: 1000;
 
+  @media (max-width: 1700px) {
+    width: 16rem;
+  }
+
   &_tab {
     height: 100vh;
     width: 10rem;
@@ -21,6 +25,10 @@
     justify-content: center;
     cursor: pointer;
 
+    @media (max-width: 1700px) {
+      width: 8rem;
+    }
+
     span {
       writing-mode: vertical-rl;
       color: white;
@@ -29,6 +37,10 @@
       letter-spacing: 0.1rem;
       transition: all 0.3s ease;
       font-family: $font-heading;
+
+      @media (max-width: 1700px) {
+        font-size: 4rem;
+      }
     }
 
     &.open {
@@ -47,6 +59,10 @@
         width: 10rem;
         height: 100vh;
         transition: all 0.4s ease;
+
+        @media (max-width: 1700px) {
+          width: 8rem;
+        }
       }
     }
   }
@@ -58,7 +74,7 @@
     background-color: $primary-color;
   }
   .nav-contact {
-    background-color: rgb(77, 108, 152);
+    background-color: rgb(138, 140, 193);
   }
 }
 
@@ -66,7 +82,7 @@
   position: absolute;
   inset: 0;
   color: white;
-  overflow:auto; //<----creating scroll bar?
+  overflow: auto; //<----creating scroll bar?
   font-size: 1.5rem;
   z-index: 1;
   margin-right: 10rem;

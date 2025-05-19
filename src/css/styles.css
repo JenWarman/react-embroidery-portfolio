@@ -34,44 +34,48 @@ html {
 .header_heading-1 {
   margin-left: 10rem;
   letter-spacing: 1.5rem;
-  font-size: 11rem;
+  font-size: 15rem;
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .header_heading-1 {
     margin-left: 5rem;
+    letter-spacing: 1.5rem;
+    font-size: 12rem;
   }
 }
 @media (max-width: 1000px) {
   .header_heading-1 {
     letter-spacing: 1.1rem;
-    font-size: 8rem;
+    font-size: 9rem;
   }
 }
 @media (max-width: 800px) {
   .header_heading-1 {
     letter-spacing: 1rem;
     font-size: 6rem;
+    margin: 0 auto;
   }
 }
 .header_heading-2 {
   font-family: "Nanum Gothic Coding", monospace;
   margin-left: 10rem;
-  font-weight: 100;
-  font-size: 14rem;
+  font-size: 18rem;
 }
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .header_heading-2 {
     margin-left: 5rem;
+    font-size: 15rem;
   }
 }
 @media (max-width: 1000px) {
   .header_heading-2 {
-    font-size: 10rem;
+    font-size: 11rem;
   }
 }
 @media (max-width: 800px) {
   .header_heading-2 {
     font-size: 8rem;
+    margin: 0 auto;
   }
 }
 

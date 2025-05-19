@@ -40,7 +40,7 @@ function PortfolioGallery() {
 
       {selectedImage && (
   <div className="image-modal" onClick={() => setSelectedImage(null)}>
-    <img src={selectedImage} alt="Full size" />
+    <img src={selectedImage} alt="Embroidery art full size image." />
   </div>
 )}
 

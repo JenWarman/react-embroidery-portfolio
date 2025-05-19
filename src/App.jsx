@@ -6,7 +6,8 @@ import PortfolioGallery from "./components/portfolio/PortfolioGallery";
 import Footer from "./components/Footer";
 import About from "./components/About/About";
 import Portfolio from "./components/portfolio/Portfolio";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
+import Confirmation from "./components/Contact/Confirmation";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/portfolio-page" element={<PortfolioGallery />}></Route>
         <Route path="/about-page" element={<AboutPage />}></Route>
+        <Route path="/confirmation" element={<Confirmation />}></Route>
       </Routes>
       <Footer />
     </>

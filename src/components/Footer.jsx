@@ -13,7 +13,9 @@ function Footer() {
               className="footer-social-media-link"
               target="_blank"
             >
-              <i className="fa-brands fa-square-instagram"></i>
+              <i
+                className="fa-brands fa-square-instagram"
+                aria-label="Instagram icon."></i>
             </a>
           </li>
           <li className="footer-social-media-item">
@@ -22,7 +24,8 @@ function Footer() {
               className="footer-social-media-link"
               target="_blank"
             >
-              <i className="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin" 
+              aria-label="LinkedIn Icon."></i>
             </a>
           </li>
           <li className="footer-social-media-item">
@@ -31,7 +34,8 @@ function Footer() {
               className="footer-social-media-link"
               target="_blank"
             >
-              <i className="fa-solid fa-square-envelope"></i>
+              <i className="fa-solid fa-square-envelope"
+              aria-label="Email Icon."></i>
             </a>
           </li>
         </ul>

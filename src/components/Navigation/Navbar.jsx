@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import AboutPage from "../About/AboutPage";
 import PortfolioGallery from "../portfolio/PortfolioGallery";
-import Contact from "../Contact";
+import Contact from "../Contact/Contact";
 
 function Navbar() {
   const [openTab, setOpenTab] = useState(null);
@@ -58,7 +58,7 @@ function Navbar() {
   {isMobile ? (
     <img
       src="/GingerCat.jpg"
-      alt="Logo"
+      alt="Logo with a picture of a hand embroidered ginger cat."
       className="logo-img"
       onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
     />
@@ -66,7 +66,7 @@ function Navbar() {
     <Link to="/">
       <img
         src="/GingerCat.jpg"
-        alt="Logo"
+        alt="Logo with a picture of a hand embroidered ginger cat."
         className="logo-img"
         onClick={() => {
           setOpenTab(null);

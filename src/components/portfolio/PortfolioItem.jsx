@@ -5,7 +5,7 @@ function PortfolioItem({ image, onImageClick }) {
         <div className="image-overlay">
           <p className="image-overlay-text">See More</p>
         </div>
-        <img src={image} alt="Embroidery art" />
+        <img src={image} alt="Embroidery art thumbnail." />
       </div>
     </div>
   );

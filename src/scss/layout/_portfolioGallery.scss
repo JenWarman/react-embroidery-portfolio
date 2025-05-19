@@ -28,6 +28,10 @@
     gap: 1rem;
   }
 
+  @media (max-width: 500px) {
+       height: 90vh;
+      }
+
 
   .scroll-column {
     width: 100%;
@@ -48,5 +52,9 @@
     @media (max-width: 1300px) {
       width: 70%;
     }
+
+    @media (max-width: 500px) {
+    animation: none;
+      }
   }
 }

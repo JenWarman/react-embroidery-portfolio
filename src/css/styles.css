@@ -22,7 +22,7 @@ html {
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  background-image: url(/public/GingerCat.jpg);
+  background-image: url(/public/gingercatBG.png);
   background-position: center;
   background-size: cover;
   font-family: "Nerko One", cursive;
@@ -30,6 +30,11 @@ html {
   font-size: 10rem;
   color: white;
   text-shadow: 1px 1px 1px black;
+}
+@media (max-width: 800px) {
+  .header {
+    height: 80vh;
+  }
 }
 .header_heading-1 {
   margin-left: 10rem;
@@ -56,6 +61,11 @@ html {
     margin: 0 auto;
   }
 }
+@media (max-width: 500px) {
+  .header_heading-1 {
+    font-size: 4.5rem;
+  }
+}
 .header_heading-2 {
   font-family: "Nanum Gothic Coding", monospace;
   margin-left: 10rem;
@@ -78,6 +88,11 @@ html {
     margin: 0 auto;
   }
 }
+@media (max-width: 500px) {
+  .header_heading-2 {
+    font-size: 6.5rem;
+  }
+}
 
 .contact {
   height: 100vh;
@@ -87,6 +102,12 @@ html {
   align-items: center;
   flex-direction: column;
   background-color: rgb(138, 140, 193);
+}
+@media (max-width: 500px) {
+  .contact {
+    height: 90vh;
+    padding-top: 3rem;
+  }
 }
 .contact_heading {
   font-size: 18rem;
@@ -232,6 +253,11 @@ html {
     font-size: 3rem;
   }
 }
+@media (max-width: 500px) {
+  .footer-social-media i {
+    padding: 0;
+  }
+}
 .footer-contactinfo {
   font-family: "Nanum Gothic Coding", monospace;
   color: white;
@@ -277,6 +303,11 @@ html {
     gap: 1rem;
   }
 }
+@media (max-width: 500px) {
+  .portfolio-gallery {
+    height: 90vh;
+  }
+}
 .portfolio-gallery .scroll-column {
   width: 100%;
   display: flex;
@@ -297,6 +328,11 @@ html {
 @media (max-width: 1300px) {
   .portfolio-gallery .scroll-column {
     width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .portfolio-gallery .scroll-column {
+    animation: none;
   }
 }
 
@@ -332,6 +368,11 @@ html {
 @media (max-width: 900px) {
   .about-page_banner {
     margin-bottom: 5rem;
+  }
+}
+@media (max-width: 500px) {
+  .about-page_banner {
+    margin-top: 5rem;
   }
 }
 .about-page_banner-text {
@@ -375,6 +416,11 @@ html {
 @media (max-width: 900px) {
   .about-page_banner-heading {
     font-size: 12rem;
+  }
+}
+@media (max-width: 500px) {
+  .about-page_banner-heading {
+    font-size: 8rem;
   }
 }
 .about-page_banner-intro {
@@ -442,6 +488,11 @@ html {
     padding: 1rem 8rem;
   }
 }
+@media (max-width: 500px) {
+  .about-page_content-section {
+    padding: 1rem 4rem;
+  }
+}
 .about-page_content-paragraph {
   font-size: 3rem;
   color: rgb(152, 77, 90);
@@ -494,6 +545,12 @@ html {
     height: 250px;
   }
 }
+@media (max-width: 500px) {
+  .about-page_content-img-right {
+    width: 200px;
+    height: 200px;
+  }
+}
 .about-page_content-img-left {
   width: 500px;
   height: 500px;
@@ -527,6 +584,12 @@ html {
   .about-page_content-img-left {
     width: 250px;
     height: 250px;
+  }
+}
+@media (max-width: 500px) {
+  .about-page_content-img-left {
+    width: 200px;
+    height: 200px;
   }
 }
 

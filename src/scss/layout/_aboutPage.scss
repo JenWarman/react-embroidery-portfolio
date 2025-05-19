@@ -29,14 +29,15 @@
       margin-bottom: 5rem;
     }
 
+    @media (max-width: 500px) {
+      margin-top: 5rem;
+    }
+
     &-text {
       padding-left: 8rem;
       padding-right: 20rem;
       width: 60%;
       color: $primary-color;
-
-      @media (max-width: 1600px) {
-      }
 
       @media (max-width: 1400px) {
         padding-left: 5rem;
@@ -51,7 +52,6 @@
         margin-top: 0;
         width: 80%;
       }
-
     }
 
     &-heading {
@@ -70,6 +70,10 @@
 
       @media (max-width: 900px) {
         font-size: 12rem;
+      }
+
+      @media (max-width: 500px) {
+        font-size: 8rem;
       }
     }
 
@@ -91,7 +95,6 @@
     &-img {
       height: 80%;
       padding-left: 20rem;
-    
 
       @media (max-width: 1700px) {
         height: 70%;
@@ -130,6 +133,9 @@
       }
       @media (max-width: 1300px) {
         padding: 1rem 8rem;
+      }
+      @media (max-width: 500px) {
+        padding: 1rem 4rem;
       }
     }
 
@@ -179,6 +185,11 @@
         width: 250px;
         height: 250px;
       }
+
+      @media (max-width: 500px) {
+        width: 200px;
+        height: 200px;
+      }
     }
 
     &-img-left {
@@ -210,6 +221,11 @@
       @media (max-width: 1000px) {
         width: 250px;
         height: 250px;
+      }
+
+      @media (max-width: 500px) {
+        width: 200px;
+        height: 200px;
       }
     }
   }

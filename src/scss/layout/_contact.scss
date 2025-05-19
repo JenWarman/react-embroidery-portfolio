@@ -6,6 +6,11 @@
     align-items: center;
     flex-direction: column;
      background-color: rgb(138, 140, 193);
+
+      @media (max-width: 500px) {
+        height: 90vh;
+        padding-top: 3rem;
+      }
   
     &_heading {
       font-size: 18rem;
@@ -36,6 +41,7 @@
       }
        @media (max-width: 700px) {
          font-size: 4.5rem;
+         
       }
     }
   }

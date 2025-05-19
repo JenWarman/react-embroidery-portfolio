@@ -890,6 +890,11 @@ html {
   z-index: 10;
   transition: all 0.3s ease-in-out;
 }
+@media (max-width: 800px) {
+  .image-overlay {
+    visibility: hidden;
+  }
+}
 .image-overlay-text {
   font-family: "Nanum Gothic Coding", monospace;
   color: white;

@@ -55,6 +55,7 @@
     align-items: center;
     transition: all 0.3s ease-in-out;
   }
+ 
 }
 
 .image-overlay {
@@ -69,6 +70,10 @@
   align-items: center;
   z-index: 10;
   transition: all 0.3s ease-in-out;
+  
+  @media (max-width: 800px) {
+    visibility: hidden;
+  }
 
   &-text {
     font-family: $font-paragraph;

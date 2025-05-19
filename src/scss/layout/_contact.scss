@@ -1,48 +1,123 @@
 .contact {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-     background-color: rgb(138, 140, 193);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(138, 140, 193);
 
-      @media (max-width: 500px) {
-        height: 90vh;
-        padding-top: 3rem;
-      }
-  
-    &_heading {
-      font-size: 18rem;
-      color: $primary-color;
-      text-transform: uppercase;
-      letter-spacing: 1.1rem;
-      font-family: $font-heading;
-      text-align: center;
+  @media (max-width: 500px) {
+    height: 90vh;
+    padding-top: 3rem;
+  }
 
-      @media (max-width: 1800px) {
-         font-size: 16rem;
-      }
+  &_heading {
+    font-size: 18rem;
+    color: $primary-color;
+    text-transform: uppercase;
+    letter-spacing: 1.1rem;
+    font-family: $font-heading;
+    text-align: center;
 
-      @media (max-width: 1600px) {
-         font-size: 14rem;
-      }
+    @media (max-width: 1800px) {
+      font-size: 16rem;
+    }
 
-        @media (max-width: 1400px) {
-         font-size: 12rem;
-      }
+    @media (max-width: 1600px) {
+      font-size: 14rem;
+    }
 
-       @media (max-width: 1100px) {
-         font-size: 8.5rem;
-      }
+    @media (max-width: 1400px) {
+      font-size: 12rem;
+    }
 
-       @media (max-width: 900px) {
-         font-size: 6.5rem;
-      }
-       @media (max-width: 700px) {
-         font-size: 4.5rem;
-         
+    @media (max-width: 1100px) {
+      font-size: 8.5rem;
+    }
+
+    @media (max-width: 900px) {
+      font-size: 6.5rem;
+    }
+    @media (max-width: 700px) {
+      font-size: 4.5rem;
+    }
+  }
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+
+  &_heading {
+    font-family: $font-heading;
+    text-transform: uppercase;
+    color: $primary-color;
+    font-size: 10rem;
+    letter-spacing: 1.1rem;
+  }
+
+  &_img {
+    height: 20rem;
+    border-radius: 50%;
+  }
+
+  &_text {
+    font-family: $font-paragraph;
+    color: $primary-color;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+
+  &_link {
+    text-decoration: none;
+    font-weight: bold;
+    color: $primary-color;
+    transition: all 0.3s;
+
+    &:hover {
+      font-size: 3.1rem;
+      color: lighten($primary-color, 10);
+
+      @media (max-width: 1100px) {
+        font-size: 2.1rem;
       }
     }
   }
-  
+
+  &_button {
+    height: 4rem;
+    width: 20rem;
+    background-color: $primary-color;
+    border-radius: 30rem;
+    transition: all 0.3s;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: $font-paragraph;
+    color: white;
+    border: none;
+
+
+    &:hover {
+      background-color: lighten($primary-color, 10);
+      transform: scale(1.1);
+    }
+  }
+}

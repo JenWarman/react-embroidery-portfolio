@@ -27,14 +27,9 @@
     height: 300px;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 900px) {
     width: 250px;
     height: 250px;
-  }
-
-  @media (max-width: 900px) {
-    width: 225px;
-    height: 225px;
   }
   @media (max-width: 500px) {
     width: 150px;
@@ -82,6 +77,10 @@
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     text-transform: uppercase;
+
+    @media (max-width: 800px) {
+      font-size: 1.8rem;
+    }
   }
 }
 

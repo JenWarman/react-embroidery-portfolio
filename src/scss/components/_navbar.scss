@@ -12,6 +12,9 @@
   @media (max-width: 1700px) {
     width: 16rem;
   }
+    @media (max-width: 768px) {
+   width:0;
+  }
 
   &_tab {
     height: 100vh;
@@ -28,6 +31,10 @@
     @media (max-width: 1700px) {
       width: 8rem;
     }
+      @media (max-width: 768px) {
+    display: none;
+  }
+
 
     span {
       writing-mode: vertical-rl;
@@ -114,12 +121,7 @@
       box-shadow: 2px 2px 10px 2px white;
     }
   }
-}
 
-@media (max-width: 768px) {
-  .main-navigation_tab {
-    display: none !important;
-  }
 }
 
 .mobile-menu {

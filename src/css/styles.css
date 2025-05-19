@@ -430,24 +430,37 @@ html {
   background-color: rgb(216, 191, 195);
 }
 .about-page_banner {
-  height: 80vh;
+  height: 60vh;
   width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 1700px) {
+  .about-page_banner {
+    height: 50vh;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+  }
+}
 @media (max-width: 1300px) {
   .about-page_banner {
     flex-direction: column;
-    margin-bottom: 0;
+    height: 60vh;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+}
+@media (max-width: 900px) {
+  .about-page_banner {
+    margin-bottom: 5rem;
   }
 }
 .about-page_banner-text {
   padding-left: 8rem;
   padding-right: 20rem;
   width: 60%;
-  margin-top: 24rem;
   color: rgb(152, 77, 90);
 }
 @media (max-width: 1400px) {
@@ -464,13 +477,6 @@ html {
     text-align: center;
     margin-top: 0;
     width: 80%;
-  }
-}
-@media (max-width: 1000px) {
-  .about-page_banner-text {
-    padding-left: 8rem;
-    padding-right: 8rem;
-    margin-bottom: 0;
   }
 }
 .about-page_banner-heading {
@@ -594,20 +600,21 @@ html {
 }
 @media (max-width: 1500px) {
   .about-page_content-img-right {
+    width: 350px;
+    height: 350px;
     margin: 0 0 3rem 3rem;
   }
 }
 @media (max-width: 1300px) {
   .about-page_content-img-right {
-    width: 350px;
-    height: 350px;
-    margin: 0 0 2rem 2rem;
+    width: 300px;
+    height: 300px;
   }
 }
 @media (max-width: 1000px) {
   .about-page_content-img-right {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 .about-page_content-img-left {
@@ -628,20 +635,21 @@ html {
 }
 @media (max-width: 1500px) {
   .about-page_content-img-left {
+    width: 350px;
+    height: 350px;
     margin: 0 3rem 3rem 0;
   }
 }
 @media (max-width: 1300px) {
   .about-page_content-img-left {
-    width: 350px;
-    height: 350px;
-    margin: 0 2rem 2rem 0;
+    width: 300px;
+    height: 300px;
   }
 }
 @media (max-width: 1000px) {
   .about-page_content-img-left {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 }
 

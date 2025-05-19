@@ -12,6 +12,9 @@ const images = [
   "/GingerCat.jpg",
   "/Owl.jpg",
   "/Skulls.jpg",
+  "/CatwithBlueBG.jpg",
+  "/Flowers.jpg",
+  "greycat.jpg"
 ];
 
 function PortfolioGallery() {

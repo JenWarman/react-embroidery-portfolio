@@ -11,6 +11,10 @@
          font-size: 3rem;
       }
 
+      @media (max-width: 800px) {
+        width: 70%;
+      }
+
   &_input {
     width: 100%;
     font-family: $font-paragraph;

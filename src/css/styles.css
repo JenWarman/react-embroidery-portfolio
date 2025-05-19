@@ -728,6 +728,9 @@ html {
     width: 8rem;
   }
 }
+.main-navigation .nav-home {
+  visibility: hidden;
+}
 .main-navigation .nav-about {
   background-color: rgb(216, 191, 195);
 }

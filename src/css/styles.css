@@ -22,7 +22,7 @@ html {
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  background-image: url(/public/gingercatBG.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.3)), url(/public/gingercatBG.png);
   background-position: center;
   background-size: cover;
   font-family: "Nerko One", cursive;
@@ -101,7 +101,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(138, 140, 193);
+  background-color: rgb(188, 189, 225);
 }
 @media (max-width: 500px) {
   .contact {
@@ -773,7 +773,7 @@ html {
   background-color: rgb(152, 77, 90);
 }
 .main-navigation .nav-contact {
-  background-color: rgb(138, 140, 193);
+  background-color: rgb(188, 189, 225);
 }
 
 .main-navigation_content {

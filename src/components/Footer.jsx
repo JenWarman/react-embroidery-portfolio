@@ -2,8 +2,8 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-copyright">
-        <p className="footer-text">Jen Warman</p>
-        <p className="footer-text-embroidery">Embroidery</p>
+        <h6 className="footer-text">Jen Warman</h6>
+        <h6 className="footer-text-embroidery">Embroidery</h6>
       </div>
       <div className="footer-social-media">
         <ul className="footer-social-media-list">
@@ -12,6 +12,7 @@ function Footer() {
               href="https://www.instagram.com/jenwarmancreates/"
               className="footer-social-media-link"
               target="_blank"
+              title="Go to Jen Warman's Instagram account."
             >
               <i
                 className="fa-brands fa-square-instagram"
@@ -23,6 +24,7 @@ function Footer() {
               href="https://www.linkedin.com/in/jen-warman-38198a172/"
               className="footer-social-media-link"
               target="_blank"
+              title="Go to Jen Warman's LinkedIn page."
             >
               <i className="fa-brands fa-linkedin" 
               aria-label="LinkedIn Icon."></i>
@@ -33,6 +35,7 @@ function Footer() {
               href="mailto:info.catsandbones@gmail.com"
               className="footer-social-media-link"
               target="_blank"
+              title="Send an email to Jen Warman."
             >
               <i className="fa-solid fa-square-envelope"
               aria-label="Email Icon."></i>

@@ -5,7 +5,7 @@ function AboutPage() {
     <>
       <section className="about-page">
         <div className="about-page_banner">
-          <img src="profile_round.png" alt="Jen Warman profile image" className="about-page_banner-img" />
+          <img src="profile_round.png" alt="Photograph of Jen Warman." className="about-page_banner-img" />
           <div className="about-page_banner-text">
             <h1 className="about-page_banner-heading">About</h1>
             <p className="about-page_banner-intro">

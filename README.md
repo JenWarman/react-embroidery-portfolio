@@ -6,13 +6,13 @@ I thought it would be a fun challenge to redesign and development an entirely ne
 
 For context this is the [**old version**](https://jenwarman.github.io/PersonalWebsite/)
 
-And this is the [**new version**](https://jenwarman.github.io/PersonalWebsite/)
+And this is the [**new version**](https://jen-warman-embroidery.netlify.app/)
 
 ## Project Objectives
 
 - **UX/UI design:** Design an online portfolio that is not only functional but engaging for the user. 
 - **Implement new skills:** An opportunity to use the knowledge from recent online courses in Sass and React.
-- **Good feels:** Create a record of my previous work and life as an embroidery artist. 
+- **Create a record:** This website will serve as a record of my previous work and life as an embroidery artist. 
 
 ## Application Features
 

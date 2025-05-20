@@ -904,8 +904,8 @@ html {
 }
 
 .portfolio-item {
-  width: 650px;
-  height: 650px;
+  width: 600px;
+  height: 600px;
   border-radius: 50%;
   overflow: hidden;
   margin: 1rem auto;
@@ -914,8 +914,8 @@ html {
 }
 @media (max-width: 1800px) {
   .portfolio-item {
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    height: 550px;
   }
 }
 @media (max-width: 1500px) {

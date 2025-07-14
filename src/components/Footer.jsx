@@ -45,7 +45,7 @@ function Footer() {
       </div>
       <div className="footer-contact">
         <p className="footer-contactinfo">&copy; Jen Warman Embroidery 2025</p>
-        <p className="footer-contactinfo">All rights reserved</p>
+        <p className="footer-contactinfo">Website design by Jen Warman. All rights reserved</p>
       </div>
     </footer>
   );

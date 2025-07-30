@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: $secondary-color;
+  background-color: $primary-color;
 
   &_banner {
     height: 60vh;
@@ -38,7 +38,7 @@
       padding-left: 8rem;
       padding-right: 20rem;
       width: 60%;
-      color: $primary-color;
+     color: $quaternary-color;
 
       @media (max-width: 1400px) {
         padding-left: 5rem;
@@ -80,7 +80,7 @@
 
     &-intro {
       font-size: 3rem;
-      color: $primary-color;
+      color: $quaternary-color;
       line-height: 1.8;
       text-align: justify;
       font-family: $font-paragraph;
@@ -147,7 +147,7 @@
 
     &-paragraph {
       font-size: 3rem;
-      color: $primary-color;
+      color: $quaternary-color;
       line-height: 1.8;
       text-align: justify;
       font-family: $font-paragraph;

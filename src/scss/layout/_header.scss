@@ -5,29 +5,30 @@
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  background-image: linear-gradient(rgba(white, 0.4), rgba(black, 0.3)), url(/public/gingercatBG.png);
+  background-image: linear-gradient(rgb(247, 245, 226, 0.3), rgb(52, 77, 103, 0.3)),
+    url(/gingercatBG.png);
   background-position: center;
   background-size: cover;
   font-family: $font-heading;
   text-transform: uppercase;
   font-size: 10rem;
   color: white;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 2px 2px $primary-color;
 
-   @media (max-width: 800px) {
-      height: 80vh;
-    }
-
+  @media (max-width: 800px) {
+    height: 80vh;
+  }
 
   &_heading-1 {
     margin-left: 10rem;
-    letter-spacing: 1.5rem;
+    letter-spacing: 1.4rem;
     font-size: 15rem;
+
 
     @media (max-width: 1200px) {
       margin-left: 5rem;
-       letter-spacing: 1.5rem;
-    font-size: 12rem;
+      letter-spacing: 1.5rem;
+      font-size: 12rem;
     }
 
     @media (max-width: 1000px) {
@@ -49,22 +50,22 @@
   &_heading-2 {
     font-family: $font-paragraph;
     margin-left: 10rem;
-    font-size:18rem;
+    font-size: 18rem;
+
     @media (max-width: 1200px) {
       margin-left: 5rem;
-      font-size:15rem;
+      font-size: 15rem;
     }
     @media (max-width: 1000px) {
       font-size: 11rem;
     }
     @media (max-width: 800px) {
       font-size: 8rem;
-       margin: 0 auto;
+      margin: 0 auto;
     }
 
-     @media (max-width: 500px) {
+    @media (max-width: 500px) {
       font-size: 6.5rem;
     }
   }
-
 }
